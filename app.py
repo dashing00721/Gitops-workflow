@@ -1,6 +1,3 @@
-x=1+1
-# API with input validation
-
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
