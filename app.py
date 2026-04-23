@@ -1,4 +1,3 @@
-x=1+1
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
