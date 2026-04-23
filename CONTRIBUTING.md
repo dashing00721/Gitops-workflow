@@ -1,22 +1,22 @@
 # Contributing Guide
 
-## Workflow Overview
-1. Pick a task from Trello board
-2. Create a feature branch
-3. Write code and commit
-4. Push and open a Pull Request
-5. Wait for CI to pass
-6. Merge into main
+## How to work on this project
+1. Pick a task from Trello
+2. Create a branch
+3. Write your code
+4. Push to GitHub
+5. Open a Pull Request
+6. Wait for green CI
+7. Merge it
 
-## Branching Rules
-- Never push directly to main
-- Always create a feature branch first
-- Branch naming: feature/TRELLO-###-description
+## Branch naming rule
+feature/TRELLO-001-what-you-are-doing
 
-Example:
-```bash
-git checkout -b feature/TRELLO-001-setup-ci
-```
+## Commit message rule
+[TRELLO-001] What you did
 
-## Commit Format
-Every commit must reference a Trello card ID:
+## If CI goes red
+- Click the red X in Actions tab
+- Read the error
+- Fix it locally
+- Push again
